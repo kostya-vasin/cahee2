@@ -1,0 +1,20 @@
+@import 'global/normalize';
+
+
+@import 'global/variables';
+@import 'global/mixins';
+@import 'global/typography';
+@import 'global/global';
+@import 'global/grid';
+
+@import 'global/parts';
+@import 'parts/header';
+@import 'parts/menu';
+@import 'parts/hero';
+@import 'parts/about';
+@import 'parts/services';
+@import 'parts/gallary';
+@import 'parts/subscribe';
+@import 'parts/blog';
+@import 'parts/contact';
+@import 'parts/footer';

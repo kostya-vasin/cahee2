@@ -1,0 +1,49 @@
+
+.subscribe {
+   position: relative;
+   color: $main-color;
+   .row {
+      flex-direction: column;
+   }
+   &__img {
+      position: absolute;
+      z-index: -1;
+   }
+   &__title {
+      @include flex-col(4);
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 27px;
+      margin-top: 145px;
+      margin-bottom: 35px;
+   }   &__text {
+      @include flex-col(6);
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 27px;
+      margin-bottom: 30px;
+   }
+   &__form-email{
+     
+   }
+   &__form-input {
+      height: 55px;
+      width: 50%;
+      margin-right: 30px;
+      border: 1px solid $main-color;
+      background-color: rgba(38, 38, 38, 0);
+      opacity: 0.5;
+      color: $main-color;
+      font-family: $main-font-family;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 27px;
+      padding-left: 15px;
+       margin-bottom: 165px;
+      margin-left: 15px;
+   }
+   .flat-btn {
+	background-color: $color-3;
+      border: none;
+}
+}

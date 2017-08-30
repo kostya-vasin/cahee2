@@ -1,0 +1,29 @@
+footer {
+   background-color: $main-color;
+   .row {
+      justify-content: space-between;
+      align-items: center;
+   }
+   .footer__rights {
+      margin: 37px 0;
+      color: #b9b9b9;
+      font-family: $main-font-family;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+   }
+   .logo {
+      color: #b9b9b9;
+      font-size: 25px;
+      font-weight: 400;
+      line-height: 25px;
+   }
+   .footer__author {
+     margin: 37px 0;
+      color: #b9b9b9;
+      font-family: $main-font-family;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+   }
+}

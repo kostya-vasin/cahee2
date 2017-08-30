@@ -1,0 +1,45 @@
+.gallary {
+   background-color: #ffe92f;
+   &__info {
+      text-align: center;
+   }
+   &__title {
+      padding-top: 100px;
+      padding-bottom: 30px;
+      margin-bottom: 0;
+   }
+   &__text {
+      @include flex-col(6);
+      padding-bottom: 45px;
+   }
+   .row2 {
+      justify-content: space-between;
+   }
+   &__photo--big {
+      @include flex-col(8);
+      
+   }
+   .col {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-direction: column;
+   }
+   .row3 {
+      padding-top: 30px;
+      justify-content: space-between;
+   }
+   &__photo--large {
+      @include flex-col(6);
+      
+   }
+   .shadow {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+   }
+   .flat-btn {
+      @include btn($color-2);
+	margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 120px;
+}
+}

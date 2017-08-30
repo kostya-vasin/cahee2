@@ -1,0 +1,117 @@
+.contact {
+   color: $main-color;
+   font-family: $main-font-family;
+   background-image: url(../../../images/bg-contacts.png);
+   
+   &__info {
+      text-align: center;
+      padding-top: 100px;
+   }
+   &__title {
+      font-size: $heading-font-size;
+      font-weight: 700;
+      margin-bottom: 48px;
+   }
+   &__text {
+      text-align: center;
+      @include flex-col(4);
+      margin-bottom: 45px;
+   }
+   .col {
+      display: flex;
+      flex-direction: column;
+   }
+   &__form {
+      @include flex-col(5);
+   }
+   &__form-title {
+          margin-bottom: 15px;
+    background-color: #00c4c4;
+    padding: 15px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    border-left: 5px solid #355b82;
+    max-height: 50px;
+   }
+   &__form-email {
+      border: none;
+      margin-bottom: 15px;
+      background-color: #00c4c4;
+      opacity: 0.5;
+      padding: 20px;
+      color: #ffffff;
+      font-family: $main-font-family;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 25px;
+      max-height: 50px;
+   }
+   &__form-phone {
+      border: none;
+      margin-bottom: 15px;
+      background-color: #00c4c4;
+      opacity: 0.5;
+      padding: 20px;
+      color: #ffffff;
+      font-family: $main-font-family;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 25px;
+      max-height: 50px;
+   }
+   &__form-messge {
+      min-height: 250px;
+      border: none;
+      margin-bottom: 15px;
+      background-color: #00c4c4;
+      opacity: 0.5;
+      padding: 20px;
+      color: #ffffff;
+      font-family: $main-font-family;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 25px;
+      
+   }
+   input::placeholder {
+      color: #ffffff;
+   }
+   textarea::placeholder {
+      color: #ffffff;
+   }
+   .my-info {
+      color: $main-color;
+   font-family: $main-font-family;
+      margin-left: 180px;
+
+      a{
+         color: $main-color;
+      }
+      &__adress {
+         line-height: 25px;
+         padding-bottom: 15px;
+         font-size: 20px;
+         font-weight: 300;
+      }
+      &__email {
+         line-height: 25px;
+         padding-bottom: 15px;
+         font-size: 20px;
+         font-weight: 300;
+      }
+      &__tel {
+         line-height: 25px;
+         padding-bottom: 15px;
+         font-size: 20px;
+         font-weight: 300;
+      }
+      strong {
+         line-height: 25px;
+         font-size: 17px;
+         font-weight: 700;
+      }
+   }
+}

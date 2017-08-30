@@ -1,0 +1,57 @@
+.servise {
+   background-color: #70bfff;
+   //   position: relative;
+   &__info {
+//      @include flex-col(11);
+      @include flex();
+      justify-content: flex-end;
+      margin: 180px 0 150px;
+      min-width: 400px;
+      align-items: center;
+      position: relative;
+   }
+   &__list {
+      @include flex-col(4);
+   }
+   &__item {
+      @include flex();
+      align-items: center;
+      justify-content: space-around;
+      font-family: $main-font-family;
+      font-size: $secondary-font-size;
+      color: #262626;
+      font-weight: 700;
+      line-height: 27px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      max-height: 100px;
+   }
+   &__title {
+      padding: 40px 0;
+      margin-bottom: 0;
+   }
+   &__title--2 {
+      text-align: center;
+   }
+   &__img {}
+   &__main-stuff {
+      @include flex-col(6.5);
+      font-family: $main-font-family;
+      font-size: $heading-font-size;
+      color: #ffffff;
+      font-weight: 700;
+      line-height: 27px;
+      z-index: 1;
+      
+      
+      
+   }
+   &__main-title {
+    margin-left: 90px;
+   }
+   &__main-photo {
+    position: absolute;
+          top: -45px;
+   }
+}

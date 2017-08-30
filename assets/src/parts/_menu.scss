@@ -1,0 +1,28 @@
+.menu {
+   @include flex();
+   justify-content: flex-end;
+   &__item {
+      padding: 0 15px;
+      &--active { 
+         position: relative;
+         &:before {
+            content: '';
+            position: absolute;
+            top: -9px;
+            left: 15px;
+            width: calc(100% - 30px);
+            height: 3px;
+            background-color: $color-1;
+         }
+         
+      }
+      
+   }
+   &__link {
+      color: $main-color;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 25px;
+      text-transform: uppercase;
+   }
+}
