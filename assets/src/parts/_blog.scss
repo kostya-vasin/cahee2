@@ -60,5 +60,7 @@
    .flat-btn {
       margin: 50px auto 120px;
       background-color: #f72b3b;
+      &:hover{
+         opacity: 0.5;}
    }
 }

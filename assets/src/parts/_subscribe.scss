@@ -45,5 +45,8 @@
    .flat-btn {
 	background-color: $color-3;
       border: none;
-}
+      &:hover{
+      opacity: 0.5;
+      }
+      }
 }
