@@ -6,7 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700,800%27");
 @import url("https://fonts.googleapis.com/css?family=Pacifico");
 html {
   line-height: 1.15;
@@ -506,10 +506,12 @@ img {
 .hero--header {
   margin-top: 215px; }
 .hero__info {
+  font-family: "Raleway", sans-serif;
   padding: 0 15px;
   flex: 0 1 33.3332%;
   max-width: 33.3332%; }
 .hero__title {
+  font-family: "Raleway", sans-serif;
   font-size: 3.75rem;
   font-weight: 800; }
 .hero__photo {
@@ -598,9 +600,6 @@ img {
   .servise__title--2 {
     text-align: center; }
   .servise__main-stuff {
-    padding: 0 15px;
-    flex: 0 1 54.16645%;
-    max-width: 54.16645%;
     font-family: "Raleway", sans-serif;
     font-size: 5.625rem;
     color: #ffffff;
@@ -742,7 +741,8 @@ img {
     font-weight: 700;
     line-height: 25px;
     line-height: 25px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center; }
   .blog .img__title {
     position: absolute;
     top: 185px;
@@ -770,7 +770,7 @@ img {
 .contact {
   color: #262626;
   font-family: "Raleway", sans-serif;
-  background-image: url(../../../images/bg-contacts.png); }
+  background-image: url(../../images/bg-contacts.png); }
   .contact__info {
     text-align: center;
     padding-top: 100px; }
