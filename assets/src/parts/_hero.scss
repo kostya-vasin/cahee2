@@ -1,12 +1,15 @@
 .hero { 
+   
    &--header{
    margin-top: 215px;
   
    }
    &__info {
+      font-family: $main-font-family;
       @include flex-col(4);
    }
    &__title {
+      font-family: $main-font-family;
       font-size: rem(60);
       font-weight: 800;
    }

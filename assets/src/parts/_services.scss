@@ -39,7 +39,7 @@
    }
    &__img {}
    &__main-stuff {
-      @include flex-col(6.5);
+//      @include flex-col(6);
       font-family: $main-font-family;
       font-size: $heading-font-size;
       color: #ffffff;
