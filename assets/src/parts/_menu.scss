@@ -18,11 +18,14 @@
       }
       
    }
+   
    &__link {
       color: $main-color;
       font-size: 16px;
       font-weight: 700;
       line-height: 25px;
       text-transform: uppercase;
+      &:hover{
+         color: $color-2;}
    }
 }
