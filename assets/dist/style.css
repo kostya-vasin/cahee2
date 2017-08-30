@@ -770,7 +770,7 @@ img {
 .contact {
   color: #262626;
   font-family: "Raleway", sans-serif;
-  background-image: url(../../../images/bg-contacts.png); }
+  background-image: url(../../images/bg-contacts.png); }
   .contact__info {
     text-align: center;
     padding-top: 100px; }
